@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SimpleCalculator</string>
+    <string name="btn_mc">MC</string>
+    <string name="btn_mr">MR</string>
+    <string name="btn_ms">MS</string>
+    <string name="btn_mplus">M+</string>
+    <string name="btn_back">←</string>
+    <string name="btn_ce">CE</string>
+    <string name="btn_c">C</string>
+    <string name="btn_sign">±</string>
+</resources>

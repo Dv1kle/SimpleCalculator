@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+
+    <EditText
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="0"
+        android:textSize="40sp"
+        android:gravity="right"
+        android:inputType="none"
+        android:background="@android:color/darker_gray" />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="4"
+        android:rowCount="6"
+        android:layout_marginTop="16dp">
+
+
+        <Button android:id="@+id/btnMC" android:text="@string/btn_mc" />
+        <Button android:id="@+id/btnMR" android:text="@string/btn_mr" />
+        <Button android:id="@+id/btnMS" android:text="@string/btn_ms" />
+        <Button android:id="@+id/btnMPlus" android:text="@string/btn_mplus" />
+
+
+        <Button android:id="@+id/btnBack" android:text="@string/btn_back" />
+        <Button android:id="@+id/btnCE" android:text="@string/btn_ce" />
+        <Button android:id="@+id/btnC" android:text="@string/btn_c" />
+        <Button android:id="@+id/btnSign" android:text="@string/btn_sign" />
+
+
+        <Button android:id="@+id/btn7" android:text="7" />
+        <Button android:id="@+id/btn8" android:text="8" />
+        <Button android:id="@+id/btn9" android:text="9" />
+        <Button android:id="@+id/btnDiv" android:text="÷" />
+
+        <Button android:id="@+id/btn4" android:text="4" />
+        <Button android:id="@+id/btn5" android:text="5" />
+        <Button android:id="@+id/btn6" android:text="6" />
+        <Button android:id="@+id/btnMul" android:text="×" />
+
+        <Button android:id="@+id/btn1" android:text="1" />
+        <Button android:id="@+id/btn2" android:text="2" />
+        <Button android:id="@+id/btn3" android:text="3" />
+        <Button android:id="@+id/btnSub" android:text="−" />
+
+        <Button android:id="@+id/btn0" android:text="0" />
+        <Button android:id="@+id/btnEquals" android:text="=" />
+        <Button android:id="@+id/btnAdd" android:text="+" />
+
+
+        <Button android:id="@+id/btnSqrt" android:text="√" />
+        <Button android:id="@+id/btnPercent" android:text="%" />
+        <Button android:id="@+id/btnInverse" android:text="1/x" />
+        <Button
+            android:id="@+id/btnDot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="." />
+
+
+    </GridLayout>
+
+</LinearLayout>
